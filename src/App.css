@@ -1,0 +1,229 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+   align-items: center; 
+  justify-content: center; 
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+main{
+  margin: 0 auto;
+  padding-top: 50px;
+  max-width: 340px;
+
+}
+
+/* button{
+  background-color: #61dafb;
+  width: 100px;
+} */
+
+
+
+/* added by sanjeevani */
+.App-container {
+  height: 100%;
+  /* display: flex; */
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  justify-content:space-around;
+  margin: 2rem 8rem;
+
+}
+
+.set-time-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.button-child {
+  margin: 0;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  color: black;
+  padding: 3px 8px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-bottom: 4px;
+}
+
+.main-one{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  position: relative;
+  float: left;
+  height: 100%;
+  width:40%;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.main-two{
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  position: relative;
+  float: right;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-bottom: 2.5rem;
+  /* height: 50%; */
+}
+span{
+  font-size:1rem;
+  color:black;
+  margin:0
+}
+
+.music-listen-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.main-three{
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+  position: relative;
+  align-items: center;
+  margin-top: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.flex-container{
+  display: flex;
+  float:right ;
+  flex-direction: column;
+
+}
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira Sans", sans-serif;
+} */
+
+/* body {
+  background-color: #DDD;
+} */
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.c-player {
+  /* display: block; */
+  /* background-color:rgb(145, 211, 211);; */
+  padding: 3rem;
+  border-radius: 16px;
+  height: 100%;
+
+}
+.color-teal{
+  background-color: rgb(145, 211, 211);
+}
+
+.c-player > h4 {
+  color: #FFF;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+}
+
+.c-player > p {
+  color: #AAA;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.c-player > p span {
+  font-weight: 400;
+}
+
+.c-player--details .details-title {
+  color: #EEE;
+  font-size: 28px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.c-player--details .details-artist {
+  color: #AAA;
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.c-player--controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.c-player--controls .play-btn {
+  display: flex;
+  margin: 0 30px;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), -4px -4px 10px rgba(255, 255, 255, 0.4), inset -4px -4px 10px rgba(0, 0, 0, 0.4), inset 4px 4px 10px rgba(255, 255, 255, 0.4);
+  border: none;
+  outline: none;
+  background-color: black;
+  color: #FFF;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.c-player--controls .skip-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 18px;
+}

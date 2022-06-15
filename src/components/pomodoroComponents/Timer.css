@@ -1,0 +1,26 @@
+.timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    padding: 0 2rem 2rem 2rem;
+    border-radius: 1rem;
+    /* background-color: greenyellow; */
+    background-color: rgb(145, 211, 211);
+}
+
+#time-left {
+    font-size: 2rem;
+    padding: 1rem;
+    background: black;
+    color: white;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+#timer-label{
+    font-size:1.2rem;
+    color:rgb(5, 5, 56);
+    padding: 1rem;
+    font-weight: bold;
+}
